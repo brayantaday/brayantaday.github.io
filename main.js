@@ -328,7 +328,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 14, vars: 0, consts: [[1, "footer-02", "text-center"], [1, "copyright"], ["routerlink", "home", "href", "#/home"], [1, "footer-social"], ["target", "_blank", "href", "https://www.facebook.com/Brayan.Taday.98"], [1, "fab", "fa-facebook"], ["target", "_blank", "href", "https://twitter.com/Brayan___Taday"], [1, "fab", "fa-twitter"], ["target", "_blank", "href", "https://www.instagram.com/Brayan___Taday/"], [1, "fab", "fa-instagram"], ["href", "https://github.com/Bryan-Taday", "target", "_blank"], [1, "fab", "fa-github"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 14, vars: 0, consts: [[1, "footer-02", "text-center"], [1, "copyright"], ["routerlink", "home", "href", "#/home"], [1, "footer-social"], ["target", "_blank", "href", "https://www.facebook.com/Brayan.Taday.98"], [1, "fab", "fa-facebook"], ["target", "_blank", "href", "https://twitter.com/Brayan___Taday"], [1, "fab", "fa-twitter"], ["target", "_blank", "href", "https://www.instagram.com/Brayan___Taday/"], [1, "fab", "fa-instagram"], ["href", "https://github.com/brayantaday", "target", "_blank"], [1, "fab", "fa-github"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " 2021 \u00A9 ");
@@ -840,7 +840,7 @@ class TarjetaComponent {
     }
 }
 TarjetaComponent.ɵfac = function TarjetaComponent_Factory(t) { return new (t || TarjetaComponent)(); };
-TarjetaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TarjetaComponent, selectors: [["app-tarjeta"]], decls: 20, vars: 0, consts: [[1, "container-tarjeta"], [1, "nombre"], [1, "text-h3"], [1, "text-xl", "text-lg", "text-md", "text-sm", "text-color-nombre"], [1, "redes", "container-fluid"], [1, "row"], [1, "col"], ["href", "https://github.com/Bryan-Taday", "target", "_blank"], [1, "fab", "fa-github"], ["href", "https://www.instagram.com/brayan___taday", "target", "_blank"], [1, "fab", "fa-instagram"], ["href", "https://www.facebook.com/Brayan.Taday.98", "target", "_blank"], [1, "fab", "fa-facebook"], ["href", "https://twitter.com/Brayan___Taday", "target", "_blank"], [1, "fab", "fa-twitter"]], template: function TarjetaComponent_Template(rf, ctx) { if (rf & 1) {
+TarjetaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TarjetaComponent, selectors: [["app-tarjeta"]], decls: 20, vars: 0, consts: [[1, "container-tarjeta"], [1, "nombre"], [1, "text-h3"], [1, "text-xl", "text-lg", "text-md", "text-sm", "text-color-nombre"], [1, "redes", "container-fluid"], [1, "row"], [1, "col"], ["href", "https://github.com/brayantaday", "target", "_blank"], [1, "fab", "fa-github"], ["href", "https://www.instagram.com/brayan___taday", "target", "_blank"], [1, "fab", "fa-instagram"], ["href", "https://www.facebook.com/Brayan.Taday.98", "target", "_blank"], [1, "fab", "fa-facebook"], ["href", "https://twitter.com/Brayan___Taday", "target", "_blank"], [1, "fab", "fa-twitter"]], template: function TarjetaComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h3", 2);
@@ -910,7 +910,7 @@ class GithubService {
         this.http = http;
     }
     getProyectos() {
-        return this.http.get('https://api.github.com/users/Bryan-Taday/repos')
+        return this.http.get('https://api.github.com/users/brayantaday/repos')
             // return this.http.get('https://restcountries.eu/rest/v2/lang/es')
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["map"])((resp) => resp.map(proyecto => ({ id: proyecto.id,
             name: proyecto.name,
